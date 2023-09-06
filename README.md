@@ -4,7 +4,7 @@ React Guide는 Vuejs 개발자가 React를 배우면서 겪는 경험을 코드�
 [reactease](https://github.com/Hacker-C/reactease) 기반으로 분석하면서 실제 프로젝트에 도입할 수준까지 예제를 포함해서 만들어 보는 것을 목적으로 합니다.
 처음에는 UnoCSS를 도입한 React를 사용하고 싶어 시작했습니다.
 
-## 적용한 기능들 (계속 추가될 예정...)
+## 적용한 라이브러리들 (계속 추가될 예정...)
 
 - ⚡ Vite, pnpm
 - 🔥 React
@@ -16,6 +16,16 @@ React Guide는 Vuejs 개발자가 React를 배우면서 겪는 경험을 코드�
 - 🚀 Using [vite-plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc), faster.
 - 😋 ESLint with [@antfu/eslint-config]()
 - 📁 File path alias (`'~/*'` -> `src/*`)
+- 📱 [Blueprint](https://blueprintjs.com/), React 기반 UI toolkit
+
+## 추가 기능들 (계속 추가될 예정)
+- [X] Layout: `~/layout`
+- [X] Blueprint 추가하고 레이아웃에 적용
+  - Dark mode 적용
+- [ ] SCSS 도입하고 관련 디렉토리 구성
+- [ ] fetch 전용 도구 선정 및 Interceptor 예제
+- [ ] 쓸만한 UI Component Library 도입
+- [ ] Food Action 서비스 예제
 
 ### About unocss.config.ts
 

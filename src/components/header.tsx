@@ -1,9 +1,14 @@
+import { Alignment, Button, Navbar } from '@blueprintjs/core'
+
 export default function TheHeader() {
   return (
-    <div className="flex items-center w-full h-12 bg-gray-300">
-      <div className="ml-2 font-bold text-xl text-green-600">
-        <h1>Food Action</h1>
-      </div>
-    </div>
+    <Navbar>
+      <Navbar.Group align={Alignment.LEFT}>
+        <Navbar.Heading>React Guide</Navbar.Heading>
+        <Navbar.Divider />
+        <Button className="bp5-minimal" icon="home" text="Home" />
+        <Button className="bp5-minimal" icon="document" text="Files" />
+      </Navbar.Group>
+    </Navbar>
   )
 }

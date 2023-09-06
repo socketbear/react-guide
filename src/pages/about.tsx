@@ -13,12 +13,12 @@ const techs = [
 export default function About() {
   return (
     <div className='mx-30% sm:mx-30% font-sans text-gray-800 pt20'>
-      <div h-20>
+      <div className='h-20'>
         <Icon icon='material-symbols:info-outline' width='50' className='pos-center text-gray-700 dark:text-white' />
       </div>
       <h1 text="xl center dark:white" font="bold sans">About</h1>
       <p m='t5' text='dark:white'>
-        Reactease is a Vite React starter template for creating your own react projects easily. It uses the following techs:
+        적용한 기술들 리스트 (넣으면 넣는 만큼 하나씩 추가할 예정):
       </p>
       <ul className='list-disc mt3 ml6 leading-7' text='dark:white'>
         {

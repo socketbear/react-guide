@@ -13,10 +13,10 @@ function Home() {
       <div className='h-20 pt-10'>
         <Icon icon="carbon:campsite" width='50' className='pos-center text-gray-700 dark:text-white' />
       </div>
-      <h1 text="lg gray-700 dark:white" m='y4'>Reactease</h1>
+      <h1 text="lg gray-700 dark:white" m='y4'>React Guide</h1>
       <p font='sans' text="gray-500 dark:white sm" m='b-10'>
-        <i>「"Create react project with ease"」</i>
-        <i className='block mt-2'>React + TS + Unocss Starter Templete</i>
+        <i>「"Vuejs 개발자가 Reactjs를 공부해보자!"」</i>
+        <i className='block mt-2'>언어나 환경이 중요한 것이 아니라 어떻게 서비스를 구성하는 것이 더 중요함.</i>
       </p>
       <input
         type="text"

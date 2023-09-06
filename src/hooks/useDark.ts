@@ -2,7 +2,6 @@ import { useState } from 'react'
 import { LocalStorageUtil } from '~/utils'
 
 export function useDark() {
-  // 初始化
   const dark = LocalStorageUtil.getItem<boolean>('dark')
   const [isDark, setIsDark] = useState(dark)
 
@@ -14,6 +13,7 @@ export function useDark() {
     setIsDark(value)
     LocalStorageUtil.setItem('dark', value)
     document.documentElement.classList.toggle('dark', value)
+    document.documentElement.querySelector('.main-app').classList.toggle('bp5-dark', value)
   }
 
   const toggle = () => {

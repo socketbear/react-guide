@@ -6,7 +6,7 @@ const items = [
   { name: 'Home', path: '/', icon: 'carbon:campsite' },
   { name: 'About', path: '/about', icon: 'material-symbols:info-outline' },
   { name: '404', path: '/404', icon: 'tabler:error-404' },
-  { name: 'Github', path: 'https://github.com/Hacker-C/reactease', icon: 'mdi:github' },
+  { name: 'Github', path: 'https://github.com/socketbear/react-guide', icon: 'mdi:github' },
   { name: 'Valtio', path: 'https://valtio.pmnd.rs', icon: 'mdi:alpha-v-box' },
   { name: 'UnoCSS', path: 'https://github.com/unocss/unocss', icon: 'simple-icons:unocss' }
 ]

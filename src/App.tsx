@@ -21,17 +21,19 @@ function Loading() {
 const DomTitle: React.FC<Props> = (props: Props) => {
   const { route } = props
   if (route?.meta?.title)
-    document.title = `${route?.meta?.title} | Reactease`
+    document.title = `${route?.meta?.title} | React Guide`
   return (
     <Suspense fallback={<Loading />}>
-      <route.element />
+      <TheLayout name={route.meta?.layout}>
+        <route.element />
+      </TheLayout>
     </Suspense>
   )
 }
 
 export default function App() {
   return (
-    <div className='dark:bg-black min-h-0px'>
+    <div className='dark:bg-black min-h-0px main-app'>
       <Router>
         <Routes>
           {
@@ -41,9 +43,7 @@ export default function App() {
                   path={route.path}
                   key={route.path}
                   element={
-                    <TheLayout name={ route.meta?.layout}>
-                      <DomTitle route={route} />
-                    </TheLayout>
+                    <DomTitle route={route} />
                   }
                 />
               )
