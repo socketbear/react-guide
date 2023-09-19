@@ -22,7 +22,8 @@ React Guide는 Vuejs 개발자가 React를 배우면서 겪는 경험을 코드�
 - [X] Layout: `~/layout`
 - [X] Blueprint 추가하고 레이아웃에 적용
   - Dark mode 적용
-- [ ] SCSS 도입하고 관련 디렉토리 구성
+- [X] SCSS 도입하고 관련 디렉토리 구성 (`~/assets/styles/`)
+  - preload: SCSS 변수 파일 vite.config에 적용
 - [ ] fetch 전용 도구 선정 및 Interceptor 예제
 - [ ] 쓸만한 UI Component Library 도입
 - [ ] Food Action 서비스 예제

@@ -28,6 +28,7 @@
     "@unocss/preset-attributify": "^0.52.3",
     "@vitejs/plugin-react-swc": "^3.3.1",
     "eslint": "^8.41.0",
+    "sass": "^1.67.0",
     "typescript": "^5.0.4",
     "unocss": "^0.52.3",
     "vite": "^4.3.8"

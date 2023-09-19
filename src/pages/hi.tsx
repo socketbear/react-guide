@@ -3,11 +3,11 @@ import React from 'react'
 import { useLocation } from 'react-router-dom'
 import { useSnapshot } from 'valtio'
 import Back from '~/components/back'
-import { userSore } from '~/store'
+import { userStore } from '~/store'
 
 const Hi: React.FC = () => {
   const location = useLocation()
-  const { unames, uname } = useSnapshot(userSore)
+  const { unames, uname } = useSnapshot(userStore)
   const names = unames.filter(name => name !== uname)
   return (
     <div className='text-center'>

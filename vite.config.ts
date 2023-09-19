@@ -5,6 +5,14 @@ import react from '@vitejs/plugin-react-swc'
 import unocss from 'unocss/vite'
 
 export default defineConfig({
+  // SCSS 전역 사용
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: '@import "~/assets/styles/_variables";'
+      }
+    }
+  },
   plugins: [
     react(),
     unocss()

@@ -2,18 +2,18 @@ import { Icon } from '@iconify/react'
 import { useNavigate } from 'react-router-dom'
 import { useSnapshot } from 'valtio'
 import { useState } from 'react'
-import { userSore } from '~/store'
+import { userStore } from '~/store'
 
 function Home() {
   const navigate = useNavigate()
-  const { uname, update } = useSnapshot(userSore)
+  const { uname, update } = useSnapshot(userStore)
   const [name, setName] = useState(uname)
   return (
     <div text='center'>
       <div className='h-20 pt-10'>
         <Icon icon="ph:bowl-food" width='50' className='pos-center text-gray-700 dark:text-white' />
       </div>
-      <h1 text="lg gray-700 dark:white" m='y4'>React Guide</h1>
+      <h1 text="lg dark:white" m='y4' className="home__title">React Guide</h1>
       <p font='sans' text="gray-500 dark:white sm" m='b-10'>
         <i>「"Vuejs 개발자가 Reactjs를 공부해보자!"」</i>
         <i className='block mt-2'>언어나 환경이 중요한 것이 아니라 어떻게 서비스를 구성하는 것이 더 중요함.</i>
