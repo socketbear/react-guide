@@ -7,7 +7,8 @@ const techs = [
   { name: 'UnoCSS', link: 'https://unocss.dev', desc: 'atomic css' },
   { name: 'Iconify', link: 'https://iconify.design', desc: 'for icons' },
   { name: 'ESLint', link: 'https://github.com/antfu/eslint-config', desc: 'code linting' },
-  { name: 'TypeScript', link: 'https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/function_components/', desc: 'type checking' }
+  { name: 'TypeScript', link: 'https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/function_components/', desc: 'type checking' },
+  { name: 'Blueprint', link: 'https://blueprintjs.com/docs/', desc: 'React base UI 셋' }
 ]
 
 export default function About() {

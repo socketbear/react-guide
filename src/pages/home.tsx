@@ -11,7 +11,7 @@ function Home() {
   return (
     <div text='center'>
       <div className='h-20 pt-10'>
-        <Icon icon="carbon:campsite" width='50' className='pos-center text-gray-700 dark:text-white' />
+        <Icon icon="ph:bowl-food" width='50' className='pos-center text-gray-700 dark:text-white' />
       </div>
       <h1 text="lg gray-700 dark:white" m='y4'>React Guide</h1>
       <p font='sans' text="gray-500 dark:white sm" m='b-10'>
