@@ -17,6 +17,7 @@ React Guide는 Vuejs 개발자가 React를 배우면서 겪는 경험을 코드�
 - 😋 ESLint with [@antfu/eslint-config]()
 - 📁 File path alias (`'~/*'` -> `src/*`)
 - 📱 [Blueprint](https://blueprintjs.com/), React 기반 UI toolkit
+- [ofetch](https://github.com/unjs/ofetch), fetch를 좀 더 좋게!
 
 ## 추가 기능들 (계속 추가될 예정)
 - [X] Layout: `~/layout`
@@ -24,7 +25,8 @@ React Guide는 Vuejs 개발자가 React를 배우면서 겪는 경험을 코드�
   - Dark mode 적용
 - [X] SCSS 도입하고 관련 디렉토리 구성 (`~/assets/styles/`)
   - preload: SCSS 변수 파일 vite.config에 적용
-- [ ] fetch 전용 도구 선정 및 Interceptor 예제
+- [X] fetch 전용 도구 선정 및 Interceptor 예제
+  - ofetch 선정 및 예제 구성, hooks 디렉토리 내 인터셉터 포함된 Wrapper 구성
 - [ ] 쓸만한 UI Component Library 도입
 - [ ] Food Action 서비스 예제
 

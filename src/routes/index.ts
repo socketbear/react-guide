@@ -6,6 +6,7 @@ import { ELayout } from '~/types/enums'
 
 const About = lazy(() => import('~/pages/about'))
 const ErrorPage = lazy(() => import('~/pages/error-page'))
+const ApiTest = lazy(() => import('~/pages/api-test'))
 
 export interface RouteType {
   path: string
@@ -36,6 +37,13 @@ const routes: RouteType[] = [
     element: About,
     meta: {
       title: 'About'
+    }
+  },
+  {
+    path: '/api-test',
+    element: ApiTest,
+    meta: {
+      title: 'API TEST'
     }
   },
   {

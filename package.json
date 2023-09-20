@@ -8,13 +8,16 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "mock": "json-server --watch ./mock/db.json --port 3001"
   },
   "dependencies": {
     "@blueprintjs/core": "^5.3.0",
     "@blueprintjs/icons": "^5.1.6",
+    "@blueprintjs/table": "^5.0.10",
     "@iconify/react": "^4.1.0",
     "@unocss/reset": "^0.52.3",
+    "ofetch": "^1.3.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.11.2",
@@ -28,6 +31,7 @@
     "@unocss/preset-attributify": "^0.52.3",
     "@vitejs/plugin-react-swc": "^3.3.1",
     "eslint": "^8.41.0",
+    "json-server": "^0.17.3",
     "sass": "^1.67.0",
     "typescript": "^5.0.4",
     "unocss": "^0.52.3",

@@ -8,7 +8,8 @@ const techs = [
   { name: 'Iconify', link: 'https://iconify.design', desc: 'for icons' },
   { name: 'ESLint', link: 'https://github.com/antfu/eslint-config', desc: 'code linting' },
   { name: 'TypeScript', link: 'https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/function_components/', desc: 'type checking' },
-  { name: 'Blueprint', link: 'https://blueprintjs.com/docs/', desc: 'React base UI 셋' }
+  { name: 'Blueprint', link: 'https://blueprintjs.com/docs/', desc: 'React base UI 셋' },
+  { name: 'ofetch', link: 'https://github.com/unjs/ofetch', desc: 'fetch를 좀 더 좋게!' }
 ]
 
 export default function About() {
