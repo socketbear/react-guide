@@ -2,7 +2,8 @@
 
 React Guide는 Vuejs 개발자가 React를 배우면서 겪는 경험을 코드로 구성해본 공간입니다.
 [reactease](https://github.com/Hacker-C/reactease) 기반으로 분석하면서 실제 프로젝트에 도입할 수준까지 예제를 포함해서 만들어 보는 것을 목적으로 합니다.
-처음에는 UnoCSS를 도입한 React를 사용하고 싶어 시작했습니다.
+처음에는 UnoCSS를 도입한 React를 사용하고 싶어 시작했습니다. 그렇게 하나 둘 프로젝트를 수행하기 위해 필요한 것들을 추가하다 보니 평소에 서비스 구축을 위해 만들었던 프레임워크 수준으로 만드는 것을 목표로 진행하게 되었습니다.
+서비스 개발을 할 때에는 실제적으로 필요한 것이 많습니다. React 기반으로 라이브러리 들을 한번 씩 만들어 보면서 적용해 보왔습니다.
 
 ## 적용한 라이브러리들 (계속 추가될 예정...)
 
@@ -29,7 +30,8 @@ React Guide는 Vuejs 개발자가 React를 배우면서 겪는 경험을 코드�
 - [X] fetch 전용 도구 선정 및 Interceptor 예제
   - ofetch 선정 및 예제 구성, hooks 디렉토리 내 인터셉터 포함된 Wrapper 구성
   - `pnpm mock`로 mock 전용 json-server 실행
-- [ ] 쓸만한 UI Component Library 도입
+- [X] 쓸만한 UI Component Library 도입
+  - Blueprint 도입 
 - [ ] Food Action 서비스 예제
 
 ### About unocss.config.ts
