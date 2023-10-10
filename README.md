@@ -31,11 +31,11 @@ React Guide는 Vuejs 개발자가 React를 배우면서 겪는 경험을 코드�
   - ofetch 선정 및 예제 구성, hooks 디렉토리 내 인터셉터 포함된 Wrapper 구성
   - `pnpm mock`로 mock 전용 json-server 실행
 - [X] 쓸만한 UI Component Library 도입
-  - Blueprint 도입 
+  - Blueprint 도입 (관리자 페이지와 같이 개발자 style의 화면을 만드는데 도움이 될 듯)
 - [ ] Food Action 서비스 예제
 
 ### About unocss.config.ts
-
+unocss는 tailwindcss의 기능을 가지면서 확장된 기능을 추가로 가진 훌륭한 라이브러리입니다.
 You can use many atomic css features by using the [UnoCSS Packages](https://github.com/unocss/unocss/tree/main/packages)
 
 1. presetAttributify
@@ -69,26 +69,30 @@ You can use many atomic css features by using the [UnoCSS Packages](https://gith
 - 해당 Repository를 클론 합니다.
 
 ```bash
-pnpm i
-pnpm dev
+# 개발 환경 실행하기
+$ pnpm i
+$ pnpm dev
+
+# mock 서버 실행하기 (json server 기반)
+$ pnpm mock
 ```
 
 ## Usage
 
 ### Development
 
-Just run and visit http://localhost:3333
+아래를 실행 한 후에, http://localhost:3333 로 들어오면 됩니다.
 ```
 pnpm dev
 ```
 
 ### Build
 
-To build the App, run
+아래를 실행하면 빌드 됩니다. (배포 전 빌드를 수행해서 문제가 없는지 확인하는 것도 좋습니다.)
 ```
 pnpm build
 ```
 
 ### Deploy
 
-You can try [netlify](https://www.netlify.com) or [vercel](https://vercel.com/) or other ways.
+github 연동을 통해 [netlify](https://www.netlify.com) 로 생성된 페이지를 배포 할 수 있습니다.
